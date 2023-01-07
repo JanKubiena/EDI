@@ -1,6 +1,6 @@
-
-function getRandomColor() {
-    const letters = '0123456789ABCDEF'
+// creating random color
+function getRandomColor() {                 
+    const letters = '0123456789ABCDEF'         
     let color = '#'
     for (let i = 0; i < 6; i++) {
       color += letters[Math.floor(Math.random() * 16)]
@@ -8,21 +8,21 @@ function getRandomColor() {
     return color
   }
   
-
-  const prepareScatterChartData = (rawData) => {
+// Mapping API data to chartJS library model for scatter chart
+const prepareScatterChartData = (rawData) => {
    
-    const dataPoints = rawData.map(car => {
-
+    const dataPoints = rawData.map(car => { 
+                                        
         const {year: x, price} = car 
 
-        const y = Number(price.substring(1)) // Ommit dolar sign and convert to float
+        const y = Number(price.substring(1)) 
 
         return  {x,y}
            
     })
 
 
-    return {
+    return {  
         datasets: [{
             label: "Car Price ($) as a function of production Year",
             data: dataPoints,
@@ -32,12 +32,12 @@ function getRandomColor() {
   
 }
 
-// Mapping API model to Chart library model
+// Mapping API data to chartJS library model for donut chart
 const prepareDonutChartData = (rawData) => {
-    const perBrandMap = new Map()
+    const perBrandMap = new Map() 
 
 
-    rawData.forEach(car => {
+    rawData.forEach(car => {  
       const {car_name: value} = car
       if(perBrandMap.has(value)) {
           const currentValue = perBrandMap.get(value)
@@ -48,9 +48,9 @@ const prepareDonutChartData = (rawData) => {
     })
 
 
-    return {
+    return {  
     
-        labels: [...perBrandMap.keys()], // Convert Itarable to Array
+        labels: [...perBrandMap.keys()], 
         datasets: [{ 
             label: "Car Make",
             data: [...perBrandMap.values()],
@@ -59,48 +59,49 @@ const prepareDonutChartData = (rawData) => {
     }
   
 }
+// getting data from API
+fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")
+.then(response => { 
 
-fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")// Usage of Fetch API in order to GET data from generated API endpointd
-.then(response => {
-
-    if(response.ok) { //jezeli bedzie ok deseralizujemy odpowiedź serwera
+    if(response.ok) { 
         return response.json()
     } else {
-        console.error(response.error) // log do konsoli 
-        alert("Failed to fetch data from API") // wyświetlenie okienka alert dla użytkownika
-        throw new Error(response.error) // przerwanie wykonania kodu
+        console.error(response.error)
+        alert("Failed to fetch data from API") 
+        throw new Error(response.error) 
     }}
     )
+// charts
 .then(data => {
 
+// donut
   const donutChartData = prepareDonutChartData(data)
   
-  const donutCtx = document.getElementById('donutChart');
+  const donutCtx = document.getElementById('donutChart'); 
 
-  new Chart(donutCtx, {
+  new Chart(donutCtx, { 
     type: 'doughnut',
     data: donutChartData
   })
 
-
+// scater
   const scatterChartData = prepareScatterChartData(data)
   
   const scatterCtx = document.getElementById('scatterChart');
-;
-  new Chart(scatterCtx, {
+
+  new Chart(scatterCtx, {  
     type: 'scatter',
     data: scatterChartData
   })
 
   
-  // data table
-  const tbody = document.getElementById('carTable');
+  // table
+  const tbody = document.getElementById('carTable'); 
 
-
-  data.forEach(item => {
-    const tr = document.createElement('tr');
-    const td1 = document.createElement('td');
-    td1.innerHTML = item.car_name;
+  data.forEach(item => { 
+    const tr = document.createElement('tr'); 
+    const td1 = document.createElement('td'); 
+    td1.innerHTML = item.car_name; 
     const td2 = document.createElement('td');
     td2.innerHTML = item.car_model;
     const td3 = document.createElement('td');
@@ -114,7 +115,7 @@ fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")// Usage of Fetch API
     const td7 = document.createElement('td');
     td7.innerHTML = item.availability;
 
-    tr.appendChild(td1);
+    tr.appendChild(td1); 
     tr.appendChild(td2);
     tr.appendChild(td3);
     tr.appendChild(td4);
@@ -122,11 +123,9 @@ fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")// Usage of Fetch API
     tr.appendChild(td6);
     tr.appendChild(td7);
 
-    tbody.appendChild(tr);
+    tbody.appendChild(tr); 
   })
 })
-
-// data charts
 
 
  
