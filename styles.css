@@ -11,6 +11,11 @@ h1 {
     text-shadow: -5px 5px black;
     font-size: 50px;
 }
+
+p {
+    font-size: 15px;
+}
+
 table {
     table-layout:auto ;
     width: 95%;
