@@ -92,7 +92,10 @@ addSelectedClass()
 // fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")
 // fetch("https://my.api.mockaroo.com/cars.json?key=80878e30")
 // fetch(`/data/data${randomNumber()}.json`)
-fetch(`/data/data${getNumber(url)}.json`)
+
+const BASE_URL = "https://jankubiena.github.io/EDI"
+
+fetch(`${BASE_URL}/data/data${getNumber(url)}.json`)
 
 // fetch("https://my.api.mockaroo.com/cars.json?key=80878e30") 
   .then(response => { 
