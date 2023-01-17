@@ -16,6 +16,31 @@ p {
     font-size: 15px;
 }
 
+#buttonsDiv {
+    display: flex;
+    align-items: left;
+    gap:8px;
+    padding-left: 2.5%
+}
+
+.data-button {
+    background-color: black;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    padding: 13px 20px;
+    border: 1px solid purple;
+}
+
+.data-button:hover {
+    border: 1px solid white;
+}
+
+.selected {
+    background-color: purple;
+    border: 1px solid black;
+}
+
 table {
     table-layout:auto ;
     width: 95%;

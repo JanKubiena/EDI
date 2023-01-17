@@ -1,0 +1,902 @@
+[
+  {
+    "car_name": "Jaguar",
+    "car_model": "X-Type",
+    "year": 2004,
+    "dealership": "Yemen",
+    "color": "Puce",
+    "price": "$205967.50",
+    "availability": false
+  },
+  {
+    "car_name": "Toyota",
+    "car_model": "T100 Xtra",
+    "year": 1995,
+    "dealership": "China",
+    "color": "Indigo",
+    "price": "$94393.94",
+    "availability": false
+  },
+  {
+    "car_name": "Buick",
+    "car_model": "Somerset",
+    "year": 1985,
+    "dealership": "China",
+    "color": "Orange",
+    "price": "$342283.19",
+    "availability": false
+  },
+  {
+    "car_name": "Kia",
+    "car_model": "Sorento",
+    "year": 2013,
+    "dealership": "France",
+    "color": "Purple",
+    "price": "$232439.34",
+    "availability": true
+  },
+  {
+    "car_name": "BMW",
+    "car_model": "X3",
+    "year": 2007,
+    "dealership": "Myanmar",
+    "color": "Fuscia",
+    "price": "$463162.58",
+    "availability": true
+  },
+  {
+    "car_name": "Audi",
+    "car_model": "Coupe Quattro",
+    "year": 1990,
+    "dealership": "Finland",
+    "color": "Puce",
+    "price": "$175424.15",
+    "availability": true
+  },
+  {
+    "car_name": "Toyota",
+    "car_model": "Highlander",
+    "year": 2005,
+    "dealership": "Czech Republic",
+    "color": "Maroon",
+    "price": "$424301.06",
+    "availability": false
+  },
+  {
+    "car_name": "Mercedes-Benz",
+    "car_model": "500SL",
+    "year": 1993,
+    "dealership": "China",
+    "color": "Orange",
+    "price": "$378198.33",
+    "availability": false
+  },
+  {
+    "car_name": "Lexus",
+    "car_model": "LS",
+    "year": 2011,
+    "dealership": "Malta",
+    "color": "Green",
+    "price": "$356752.49",
+    "availability": false
+  },
+  {
+    "car_name": "Audi",
+    "car_model": "A6",
+    "year": 1999,
+    "dealership": "Philippines",
+    "color": "Indigo",
+    "price": "$276582.92",
+    "availability": true
+  },
+  {
+    "car_name": "Ford",
+    "car_model": "Econoline E250",
+    "year": 1997,
+    "dealership": "Chile",
+    "color": "Yellow",
+    "price": "$71465.26",
+    "availability": false
+  },
+  {
+    "car_name": "GMC",
+    "car_model": "Savana 1500",
+    "year": 2002,
+    "dealership": "Philippines",
+    "color": "Puce",
+    "price": "$423481.75",
+    "availability": true
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "S10",
+    "year": 1995,
+    "dealership": "Indonesia",
+    "color": "Mauv",
+    "price": "$408480.32",
+    "availability": true
+  },
+  {
+    "car_name": "Nissan",
+    "car_model": "300ZX",
+    "year": 1992,
+    "dealership": "Indonesia",
+    "color": "Blue",
+    "price": "$360552.54",
+    "availability": false
+  },
+  {
+    "car_name": "Mercedes-Benz",
+    "car_model": "S-Class",
+    "year": 1995,
+    "dealership": "Vietnam",
+    "color": "Violet",
+    "price": "$307632.65",
+    "availability": false
+  },
+  {
+    "car_name": "Toyota",
+    "car_model": "Avalon",
+    "year": 2002,
+    "dealership": "Norway",
+    "color": "Goldenrod",
+    "price": "$375810.97",
+    "availability": true
+  },
+  {
+    "car_name": "Oldsmobile",
+    "car_model": "Bravada",
+    "year": 2004,
+    "dealership": "Ukraine",
+    "color": "Puce",
+    "price": "$266727.40",
+    "availability": false
+  },
+  {
+    "car_name": "Lexus",
+    "car_model": "SC",
+    "year": 1992,
+    "dealership": "Costa Rica",
+    "color": "Fuscia",
+    "price": "$85693.39",
+    "availability": true
+  },
+  {
+    "car_name": "Lincoln",
+    "car_model": "Town Car",
+    "year": 2006,
+    "dealership": "China",
+    "color": "Puce",
+    "price": "$279682.97",
+    "availability": false
+  },
+  {
+    "car_name": "Suzuki",
+    "car_model": "Samurai",
+    "year": 1992,
+    "dealership": "France",
+    "color": "Goldenrod",
+    "price": "$297716.43",
+    "availability": true
+  },
+  {
+    "car_name": "Ford",
+    "car_model": "F250",
+    "year": 1984,
+    "dealership": "Sweden",
+    "color": "Blue",
+    "price": "$451004.76",
+    "availability": false
+  },
+  {
+    "car_name": "Jeep",
+    "car_model": "Compass",
+    "year": 2008,
+    "dealership": "Aland Islands",
+    "color": "Maroon",
+    "price": "$270884.90",
+    "availability": false
+  },
+  {
+    "car_name": "Isuzu",
+    "car_model": "Hombre",
+    "year": 2000,
+    "dealership": "Indonesia",
+    "color": "Violet",
+    "price": "$403144.75",
+    "availability": false
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Express 3500",
+    "year": 2002,
+    "dealership": "Philippines",
+    "color": "Indigo",
+    "price": "$133769.59",
+    "availability": false
+  },
+  {
+    "car_name": "Nissan",
+    "car_model": "Maxima",
+    "year": 1996,
+    "dealership": "Belarus",
+    "color": "Puce",
+    "price": "$426940.69",
+    "availability": true
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "Caravan",
+    "year": 1999,
+    "dealership": "Cuba",
+    "color": "Puce",
+    "price": "$185061.93",
+    "availability": false
+  },
+  {
+    "car_name": "Ford",
+    "car_model": "Model T",
+    "year": 1909,
+    "dealership": "Finland",
+    "color": "Mauv",
+    "price": "$470711.61",
+    "availability": true
+  },
+  {
+    "car_name": "Volkswagen",
+    "car_model": "GLI",
+    "year": 2008,
+    "dealership": "China",
+    "color": "Fuscia",
+    "price": "$173310.26",
+    "availability": false
+  },
+  {
+    "car_name": "Mazda",
+    "car_model": "Miata MX-5",
+    "year": 2009,
+    "dealership": "China",
+    "color": "Turquoise",
+    "price": "$436233.76",
+    "availability": false
+  },
+  {
+    "car_name": "Lincoln",
+    "car_model": "LS",
+    "year": 2000,
+    "dealership": "China",
+    "color": "Yellow",
+    "price": "$27480.21",
+    "availability": false
+  },
+  {
+    "car_name": "Lincoln",
+    "car_model": "Continental Mark VII",
+    "year": 1985,
+    "dealership": "Brazil",
+    "color": "Khaki",
+    "price": "$177588.60",
+    "availability": false
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Prizm",
+    "year": 2001,
+    "dealership": "Nigeria",
+    "color": "Blue",
+    "price": "$357912.99",
+    "availability": true
+  },
+  {
+    "car_name": "Lexus",
+    "car_model": "LS",
+    "year": 1999,
+    "dealership": "Jordan",
+    "color": "Green",
+    "price": "$370441.93",
+    "availability": true
+  },
+  {
+    "car_name": "BMW",
+    "car_model": "525",
+    "year": 2002,
+    "dealership": "Portugal",
+    "color": "Turquoise",
+    "price": "$480311.30",
+    "availability": true
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "Ram Van 1500",
+    "year": 1998,
+    "dealership": "Indonesia",
+    "color": "Green",
+    "price": "$289686.04",
+    "availability": false
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "Dakota Club",
+    "year": 1998,
+    "dealership": "France",
+    "color": "Turquoise",
+    "price": "$436767.12",
+    "availability": false
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "Grand Caravan",
+    "year": 1993,
+    "dealership": "China",
+    "color": "Puce",
+    "price": "$142015.83",
+    "availability": false
+  },
+  {
+    "car_name": "Land Rover",
+    "car_model": "LR4",
+    "year": 2010,
+    "dealership": "Maldives",
+    "color": "Fuscia",
+    "price": "$494997.85",
+    "availability": false
+  },
+  {
+    "car_name": "Cadillac",
+    "car_model": "XLR-V",
+    "year": 2009,
+    "dealership": "Brazil",
+    "color": "Yellow",
+    "price": "$473442.08",
+    "availability": false
+  },
+  {
+    "car_name": "BMW",
+    "car_model": "M5",
+    "year": 2010,
+    "dealership": "Central African Republic",
+    "color": "Goldenrod",
+    "price": "$96060.34",
+    "availability": false
+  },
+  {
+    "car_name": "Suzuki",
+    "car_model": "Sidekick",
+    "year": 1996,
+    "dealership": "China",
+    "color": "Khaki",
+    "price": "$314807.09",
+    "availability": true
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "Grand Caravan",
+    "year": 2007,
+    "dealership": "Indonesia",
+    "color": "Green",
+    "price": "$348020.44",
+    "availability": true
+  },
+  {
+    "car_name": "Kia",
+    "car_model": "Sorento",
+    "year": 2013,
+    "dealership": "Indonesia",
+    "color": "Indigo",
+    "price": "$52715.22",
+    "availability": false
+  },
+  {
+    "car_name": "Honda",
+    "car_model": "Prelude",
+    "year": 1996,
+    "dealership": "Nicaragua",
+    "color": "Turquoise",
+    "price": "$87765.98",
+    "availability": false
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Avalanche 1500",
+    "year": 2004,
+    "dealership": "Poland",
+    "color": "Khaki",
+    "price": "$70096.77",
+    "availability": false
+  },
+  {
+    "car_name": "Oldsmobile",
+    "car_model": "Alero",
+    "year": 2001,
+    "dealership": "Peru",
+    "color": "Mauv",
+    "price": "$257577.36",
+    "availability": true
+  },
+  {
+    "car_name": "Kia",
+    "car_model": "Optima",
+    "year": 2011,
+    "dealership": "Russia",
+    "color": "Crimson",
+    "price": "$284067.54",
+    "availability": false
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "D250",
+    "year": 1992,
+    "dealership": "Kenya",
+    "color": "Purple",
+    "price": "$51221.81",
+    "availability": true
+  },
+  {
+    "car_name": "Volvo",
+    "car_model": "V50",
+    "year": 2005,
+    "dealership": "Pakistan",
+    "color": "Blue",
+    "price": "$190565.75",
+    "availability": false
+  },
+  {
+    "car_name": "Pontiac",
+    "car_model": "Fiero",
+    "year": 1984,
+    "dealership": "Colombia",
+    "color": "Orange",
+    "price": "$83894.21",
+    "availability": true
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "D150",
+    "year": 1993,
+    "dealership": "Turkmenistan",
+    "color": "Crimson",
+    "price": "$207735.39",
+    "availability": false
+  },
+  {
+    "car_name": "Lotus",
+    "car_model": "Esprit",
+    "year": 1992,
+    "dealership": "Philippines",
+    "color": "Turquoise",
+    "price": "$214253.20",
+    "availability": true
+  },
+  {
+    "car_name": "Mercury",
+    "car_model": "Tracer",
+    "year": 1995,
+    "dealership": "Micronesia",
+    "color": "Mauv",
+    "price": "$41277.31",
+    "availability": true
+  },
+  {
+    "car_name": "Suzuki",
+    "car_model": "Sidekick",
+    "year": 1993,
+    "dealership": "Morocco",
+    "color": "Khaki",
+    "price": "$284287.72",
+    "availability": true
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Avalanche 2500",
+    "year": 2006,
+    "dealership": "Russia",
+    "color": "Purple",
+    "price": "$252264.61",
+    "availability": true
+  },
+  {
+    "car_name": "Mercedes-Benz",
+    "car_model": "R-Class",
+    "year": 2006,
+    "dealership": "Sweden",
+    "color": "Maroon",
+    "price": "$268486.26",
+    "availability": false
+  },
+  {
+    "car_name": "Mercury",
+    "car_model": "Milan",
+    "year": 2010,
+    "dealership": "Tajikistan",
+    "color": "Green",
+    "price": "$264439.89",
+    "availability": false
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Tahoe",
+    "year": 2004,
+    "dealership": "Sweden",
+    "color": "Yellow",
+    "price": "$281488.08",
+    "availability": false
+  },
+  {
+    "car_name": "Isuzu",
+    "car_model": "Rodeo",
+    "year": 2004,
+    "dealership": "Indonesia",
+    "color": "Fuscia",
+    "price": "$78212.17",
+    "availability": false
+  },
+  {
+    "car_name": "Audi",
+    "car_model": "S4",
+    "year": 2006,
+    "dealership": "Indonesia",
+    "color": "Yellow",
+    "price": "$363899.24",
+    "availability": false
+  },
+  {
+    "car_name": "Ford",
+    "car_model": "Aerostar",
+    "year": 1988,
+    "dealership": "Peru",
+    "color": "Puce",
+    "price": "$469900.53",
+    "availability": true
+  },
+  {
+    "car_name": "Porsche",
+    "car_model": "968",
+    "year": 1993,
+    "dealership": "Japan",
+    "color": "Yellow",
+    "price": "$354647.03",
+    "availability": false
+  },
+  {
+    "car_name": "Plymouth",
+    "car_model": "Grand Voyager",
+    "year": 1998,
+    "dealership": "Vietnam",
+    "color": "Turquoise",
+    "price": "$309191.35",
+    "availability": false
+  },
+  {
+    "car_name": "Saab",
+    "car_model": "9000",
+    "year": 1986,
+    "dealership": "Vietnam",
+    "color": "Khaki",
+    "price": "$46702.69",
+    "availability": false
+  },
+  {
+    "car_name": "Pontiac",
+    "car_model": "6000",
+    "year": 1985,
+    "dealership": "Mexico",
+    "color": "Puce",
+    "price": "$231269.90",
+    "availability": true
+  },
+  {
+    "car_name": "Lincoln",
+    "car_model": "Town Car",
+    "year": 1986,
+    "dealership": "Poland",
+    "color": "Turquoise",
+    "price": "$302566.64",
+    "availability": true
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Suburban 1500",
+    "year": 1999,
+    "dealership": "Russia",
+    "color": "Turquoise",
+    "price": "$190465.19",
+    "availability": true
+  },
+  {
+    "car_name": "Buick",
+    "car_model": "LeSabre",
+    "year": 1993,
+    "dealership": "Indonesia",
+    "color": "Aquamarine",
+    "price": "$116695.35",
+    "availability": false
+  },
+  {
+    "car_name": "Lamborghini",
+    "car_model": "Gallardo",
+    "year": 2003,
+    "dealership": "Indonesia",
+    "color": "Pink",
+    "price": "$486742.43",
+    "availability": true
+  },
+  {
+    "car_name": "Suzuki",
+    "car_model": "Grand Vitara",
+    "year": 2001,
+    "dealership": "Russia",
+    "color": "Maroon",
+    "price": "$203872.74",
+    "availability": true
+  },
+  {
+    "car_name": "Buick",
+    "car_model": "Somerset",
+    "year": 1986,
+    "dealership": "Cuba",
+    "color": "Goldenrod",
+    "price": "$82078.30",
+    "availability": true
+  },
+  {
+    "car_name": "Fairthorpe",
+    "car_model": "Rockette",
+    "year": 1960,
+    "dealership": "China",
+    "color": "Red",
+    "price": "$145654.15",
+    "availability": true
+  },
+  {
+    "car_name": "Honda",
+    "car_model": "del Sol",
+    "year": 1996,
+    "dealership": "Norway",
+    "color": "Green",
+    "price": "$43314.85",
+    "availability": true
+  },
+  {
+    "car_name": "BMW",
+    "car_model": "3 Series",
+    "year": 1994,
+    "dealership": "China",
+    "color": "Fuscia",
+    "price": "$90061.63",
+    "availability": false
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Corvette",
+    "year": 1960,
+    "dealership": "Mongolia",
+    "color": "Puce",
+    "price": "$299748.55",
+    "availability": false
+  },
+  {
+    "car_name": "GMC",
+    "car_model": "Rally Wagon 3500",
+    "year": 1994,
+    "dealership": "China",
+    "color": "Goldenrod",
+    "price": "$27093.29",
+    "availability": false
+  },
+  {
+    "car_name": "Audi",
+    "car_model": "TT",
+    "year": 2002,
+    "dealership": "China",
+    "color": "Red",
+    "price": "$260469.51",
+    "availability": false
+  },
+  {
+    "car_name": "Toyota",
+    "car_model": "Camry",
+    "year": 1995,
+    "dealership": "Malaysia",
+    "color": "Aquamarine",
+    "price": "$27009.18",
+    "availability": false
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Suburban",
+    "year": 2010,
+    "dealership": "Guinea",
+    "color": "Green",
+    "price": "$478089.57",
+    "availability": false
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Traverse",
+    "year": 2009,
+    "dealership": "Philippines",
+    "color": "Indigo",
+    "price": "$435480.89",
+    "availability": false
+  },
+  {
+    "car_name": "Mazda",
+    "car_model": "626",
+    "year": 1994,
+    "dealership": "Bosnia and Herzegovina",
+    "color": "Teal",
+    "price": "$435440.84",
+    "availability": true
+  },
+  {
+    "car_name": "Toyota",
+    "car_model": "Tercel",
+    "year": 1997,
+    "dealership": "Greece",
+    "color": "Orange",
+    "price": "$264709.21",
+    "availability": false
+  },
+  {
+    "car_name": "Suzuki",
+    "car_model": "XL7",
+    "year": 2006,
+    "dealership": "Kazakhstan",
+    "color": "Maroon",
+    "price": "$327535.31",
+    "availability": true
+  },
+  {
+    "car_name": "Chevrolet",
+    "car_model": "Express 2500",
+    "year": 2000,
+    "dealership": "Japan",
+    "color": "Violet",
+    "price": "$438233.59",
+    "availability": true
+  },
+  {
+    "car_name": "Mercedes-Benz",
+    "car_model": "C-Class",
+    "year": 2004,
+    "dealership": "Poland",
+    "color": "Mauv",
+    "price": "$499112.51",
+    "availability": true
+  },
+  {
+    "car_name": "Toyota",
+    "car_model": "Celica",
+    "year": 1992,
+    "dealership": "Indonesia",
+    "color": "Indigo",
+    "price": "$290956.00",
+    "availability": true
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "Neon",
+    "year": 1997,
+    "dealership": "Armenia",
+    "color": "Violet",
+    "price": "$380187.13",
+    "availability": false
+  },
+  {
+    "car_name": "Audi",
+    "car_model": "A4",
+    "year": 2002,
+    "dealership": "Japan",
+    "color": "Aquamarine",
+    "price": "$477997.89",
+    "availability": true
+  },
+  {
+    "car_name": "Ford",
+    "car_model": "Laser",
+    "year": 1988,
+    "dealership": "Philippines",
+    "color": "Mauv",
+    "price": "$243776.19",
+    "availability": false
+  },
+  {
+    "car_name": "Jeep",
+    "car_model": "Liberty",
+    "year": 2008,
+    "dealership": "Tajikistan",
+    "color": "Mauv",
+    "price": "$465385.85",
+    "availability": false
+  },
+  {
+    "car_name": "BMW",
+    "car_model": "Z3",
+    "year": 1996,
+    "dealership": "Portugal",
+    "color": "Blue",
+    "price": "$219811.16",
+    "availability": true
+  },
+  {
+    "car_name": "Lexus",
+    "car_model": "GS",
+    "year": 1998,
+    "dealership": "China",
+    "color": "Turquoise",
+    "price": "$252501.14",
+    "availability": false
+  },
+  {
+    "car_name": "Plymouth",
+    "car_model": "Voyager",
+    "year": 1998,
+    "dealership": "Sweden",
+    "color": "Yellow",
+    "price": "$327777.90",
+    "availability": false
+  },
+  {
+    "car_name": "Geo",
+    "car_model": "Prizm",
+    "year": 1996,
+    "dealership": "Poland",
+    "color": "Purple",
+    "price": "$434161.35",
+    "availability": true
+  },
+  {
+    "car_name": "Suzuki",
+    "car_model": "Forenza",
+    "year": 2004,
+    "dealership": "China",
+    "color": "Mauv",
+    "price": "$408100.86",
+    "availability": true
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "Ram 3500",
+    "year": 2005,
+    "dealership": "Thailand",
+    "color": "Maroon",
+    "price": "$370126.29",
+    "availability": false
+  },
+  {
+    "car_name": "Buick",
+    "car_model": "LeSabre",
+    "year": 1996,
+    "dealership": "Guinea",
+    "color": "Blue",
+    "price": "$384822.82",
+    "availability": false
+  },
+  {
+    "car_name": "Dodge",
+    "car_model": "Ram 3500 Club",
+    "year": 1997,
+    "dealership": "South Korea",
+    "color": "Mauv",
+    "price": "$371700.40",
+    "availability": true
+  },
+  {
+    "car_name": "Jaguar",
+    "car_model": "S-Type",
+    "year": 2007,
+    "dealership": "Czech Republic",
+    "color": "Orange",
+    "price": "$205498.02",
+    "availability": true
+  },
+  {
+    "car_name": "Mercedes-Benz",
+    "car_model": "300SE",
+    "year": 1993,
+    "dealership": "Niger",
+    "color": "Maroon",
+    "price": "$31195.42",
+    "availability": false
+  }
+]

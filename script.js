@@ -21,7 +21,6 @@ const prepareScatterChartData = (rawData) => {
            
     })
 
-
     return {  
         datasets: [{
             label: "Car Price ($) as a function of production Year",
@@ -59,18 +58,51 @@ const prepareDonutChartData = (rawData) => {
     }
   
 }
-// getting data from API
-fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")
-.then(response => { 
 
+
+// const getNumber = () => {
+//   return Math.floor(Math.random() * 3) + 1
+// }
+// console.log('Wylosowany numer: ',randomNumber())
+
+
+
+
+let url = window.location.href;
+// console.log(url)
+console.log(url.match(/(?<=data=)\d+/))
+
+const getNumber = (url) => {
+  if(url.match(/(?<=data=)\d+/)) {
+    return url.match(/(?<=data=)\d+/)[0]
+  } else {
+    return "1"
+  }
+}
+console.log(getNumber(url))
+
+function addSelectedClass() {
+  let element = document.getElementById(`data${getNumber(url)}`);
+  element.classList.add("selected");
+}
+
+addSelectedClass()
+
+// getting data from API
+// fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")
+// fetch("https://my.api.mockaroo.com/cars.json?key=80878e30")
+// fetch(`/data/data${randomNumber()}.json`)
+fetch(`/data/data${getNumber(url)}.json`)
+
+// fetch("https://my.api.mockaroo.com/cars.json?key=80878e30") 
+  .then(response => { 
     if(response.ok) { 
         return response.json()
     } else {
         console.error(response.error)
         alert("Failed to fetch data from API") 
         throw new Error(response.error) 
-    }}
-    )
+    }})
 // charts
 .then(data => {
 
@@ -99,31 +131,14 @@ fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")
   const tbody = document.getElementById('carTable'); 
 
   data.forEach(item => { 
-    const tr = document.createElement('tr'); 
-    const td1 = document.createElement('td'); 
-    td1.innerHTML = item.car_name; 
-    const td2 = document.createElement('td');
-    td2.innerHTML = item.car_model;
-    const td3 = document.createElement('td');
-    td3.innerHTML = item.year;
-    const td4 = document.createElement('td');
-    td4.innerHTML = item.dealership;
-    const td5 = document.createElement('td');
-    td5.innerHTML = item.color;
-    const td6 = document.createElement('td');
-    td6.innerHTML = item.price;
-    const td7 = document.createElement('td');
-    td7.innerHTML = item.availability;
-
-    tr.appendChild(td1); 
-    tr.appendChild(td2);
-    tr.appendChild(td3);
-    tr.appendChild(td4);
-    tr.appendChild(td5);
-    tr.appendChild(td6);
-    tr.appendChild(td7);
-
-    tbody.appendChild(tr); 
+    const tr = document.createElement('tr');
+    
+    for (const [key, value] of Object.entries(item)) {
+      const td = document.createElement('td');
+      td.innerText = `${value}`;
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
   })
 })
 
