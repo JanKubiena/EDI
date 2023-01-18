@@ -59,17 +59,16 @@ const prepareDonutChartData = (rawData) => {
   
 }
 
-
-// const getNumber = () => {
-//   return Math.floor(Math.random() * 3) + 1
-// }
-// console.log('Wylosowany numer: ',randomNumber())
-
-
-
+//changeing data
+// console.log(window.location)
+function addSetNumber(nr) {
+  let url = window.location.href
+  url.search = "";
+  url = window.location.origin + window.location.pathname + `?data=${nr}`
+  return window.location.href = url;
+  }
 
 let url = window.location.href;
-// console.log(url)
 console.log(url.match(/(?<=data=)\d+/))
 
 const getNumber = (url) => {
@@ -81,23 +80,19 @@ const getNumber = (url) => {
 }
 console.log(getNumber(url))
 
+//adding "selected" class to button
 function addSelectedClass() {
   let element = document.getElementById(`data${getNumber(url)}`);
   element.classList.add("selected");
 }
-
 addSelectedClass()
 
 // getting data from API
-// fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")
-// fetch("https://my.api.mockaroo.com/cars.json?key=80878e30")
-// fetch(`/data/data${randomNumber()}.json`)
-
 const BASE_URL = "https://jankubiena.github.io/EDI"
 
+// fetch("https://my.api.mockaroo.com/cars.json?key=01084d50")
 fetch(`${BASE_URL}/data/data${getNumber(url)}.json`)
-
-// fetch("https://my.api.mockaroo.com/cars.json?key=80878e30") 
+ 
   .then(response => { 
     if(response.ok) { 
         return response.json()

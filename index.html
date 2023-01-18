@@ -8,16 +8,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
   </head>
   <body>
-    <script>
-      // console.log(window.location)
-      function addSetNumber(nr) {
-        let url = window.location.href
-          url.search = "";
-          url = window.location.origin + window.location.pathname + `?data=${nr}`
-          return window.location.href = url;
-        }
-    </script>
-
     <main>
       <h1>Online car dealership data</h1>
       <div id="buttonsDiv">
@@ -31,7 +21,7 @@
           Data 3
         </button>
       </div>
-            <div style="margin:24px 0" id ="content">
+            <div id ="content">
             <table>
                 <thead>
                   <tr>
@@ -60,6 +50,7 @@
            
         </div>
         <p>by: Jan Kubiena, Mikołaj Kochaniak and Hubert Solecki</p>
+        <p>version 1.0</p>
     </main>
 	<script src="script.js"></script>
   </body>

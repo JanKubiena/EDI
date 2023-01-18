@@ -46,8 +46,29 @@ p {
     border: 1px solid black;
 }
 
+#content {
+    height: 500px;
+    overflow-y: auto;
+    margin: 24px 0;
+}
+
+
+#content::-webkit-scrollbar {
+    width: 8px;
+}
+  
+#content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px grey;
+    border-radius: 10px;
+}
+  
+#content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 8px purple;
+}
+
 table {
-    table-layout:auto ;
+    table-layout: auto;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -111,7 +132,3 @@ tr:hover td {
     width: 40%;
 }
 
-#content {
-    height: 500px;
-    overflow-y: auto;
-}
